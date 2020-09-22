@@ -2,14 +2,12 @@
 
 ul {
   list-style: none;
-  width: 1200px;
-  margin-left: 772px;
 }
 
 ul > li {
   text-align: center;
   float: left;
-  margin: 10px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -25,6 +23,13 @@ ul > li > a {
 .head_img {
   text-align: center;
 }
+.header {
+  position: relative;
+}
+.nav {
+  position: absolute;
+  left: calc(50% - 140px);
+}
 
 .space > ul {
   position: absolute;
@@ -33,8 +38,8 @@ ul > li > a {
 }
 
 .space > ul > li {
-  margin-left: 30px;
-  padding: 4px;
+  margin-left: 2px;
+  padding: 4.8px;
 }
 
 a:hover {
@@ -47,47 +52,28 @@ a:hover {
   display: block;
 }
 /* *********Head 메뉴 끝********* */
-.cont01 {
-  width: 100%;
-}
-.cont_box01 {
-  margin-top: 90px;
-  margin-right: 800px;
-  display: flex; /*가로정렬*/
-  justify-content: space-between; /*양쪽에 맞춰서 정렬*/
-}
-
-.cont01 div .cont_box01 div img {
+.body {
   text-align: center;
+  margin: 90px 130px 0px 0px;
+  padding: 60px;
+}
+.body span {
+  font-weight: bold;
+  font-size: 19px;
+}
+.body img {
+  width: 560px;
+  float: middle;
+}
+.body p {
+  float: right;
+  width: 350px;
 }
 
-.cont_box01 p {
-  background-size: auto;
-  width: 610px;
-  height: 410px;
-  margin-left: 300px;
-}
-.cont_box01 p img {
-  height: 100%;
-  width: 100%;
-  margin-top: 55px;
-}
-.cont_box01 dl {
-  padding: 0px;
-  margin-left: -230px;
-}
-.cont_box01 dl dt {
-  font-size: 25px;
-  font-weight: bolder;
-  width: 1500px;
-  margin-bottom: 20px;
-  margin-right: 900px;
-  margin-top: 90px;
-}
 /* **********************div1 끝********** */
 hr {
   margin-top: 50px;
-  margin-left: 100px;
+  width: 100%;
 }
 /* ***********************라인 끝 **************/
 
@@ -96,37 +82,28 @@ hr {
   font-weight: bolder;
   font-style: italic;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0px 30px 0px;
 }
 
-.cont_02 .test {
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(2, 350px);
-  gap: 20px;
-  justify-content: center;
-  margin-top: 80px;
+.cont_02 ul {
+  display: block;
+  width: 1080px;
+  margin: 0 auto;
+}
+.cont_02 ul li {
+  margin: 0;
+  padding: 0;
+  margin: 0px 10px 72px 0px;
 }
 
-.cont_02 .test2 {
-  margin-top: -200px;
-  display: grid;
-  grid-template-columns: repeat(2, 300px);
-  grid-template-rows: repeat(2, 350px);
-  gap: 20px;
-  justify-content: center;
+.cont_02 ul li div {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(211, 211, 211);
+  box-shadow: 6px 6px 10px rgb(134, 134, 134);
 }
-
-.cont_02 .test img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.cont_02 ul li div img {
+  width: 350px;
+  height: 300px;
 }
-
-.cont_02 .test2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 /* ******************cont_02 끝 */
